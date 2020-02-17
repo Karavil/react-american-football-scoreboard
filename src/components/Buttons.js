@@ -1,6 +1,6 @@
 import React from "react";
 
-class Buttons extends React.Component {
+export class Buttons extends React.Component {
    render() {
       return (<section className="buttons">
          <div className="homeButtons">
@@ -15,4 +15,3 @@ class Buttons extends React.Component {
    }
 }
 
-export default Buttons;

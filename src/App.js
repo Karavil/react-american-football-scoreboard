@@ -2,8 +2,8 @@
 import React from "react";
 
 import "./App.css";
-import Scoreboard from "./components/Scoreboard";
-import Buttons from "./components/Buttons";
+import { Scoreboard } from "./components/Scoreboard";
+import { Buttons } from "./components/Buttons";
 
 
 

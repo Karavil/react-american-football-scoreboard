@@ -2,7 +2,7 @@ import React from "react";
 import Clock from 'react-live-clock';
 import BottomRow from "./BottomRow";
 
-class Scoreboard extends React.Component {
+export class Scoreboard extends React.Component {
    render() {
       return (<section className="scoreboard">
          <div className="topRow">
@@ -21,4 +21,3 @@ class Scoreboard extends React.Component {
    }
 }
 
-export default Scoreboard;
